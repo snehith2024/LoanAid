@@ -55,7 +55,8 @@ python main.py
 
 ## 🖼️ Screenshots
 
-*Add screenshots here showing form submission, loan cards, edit dialog, etc.*
+![image](https://github.com/user-attachments/assets/5d23a167-7e5c-4bf7-8828-ed5df613d716)
+
 
 ---
 
