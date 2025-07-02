@@ -70,7 +70,7 @@ python main.py
 
 ## 🧑‍💻 Author
 
-* **Your Name** – [@yourgithubhandle](https://github.com/yourgithubhandle)
+* **Snehith Santhosh** – [@yourgithubhandle](https://github.com/yourgithubhandle)
 
 ---
 
