@@ -70,7 +70,7 @@ python main.py
 
 ## 🧑‍💻 Author
 
-* **Snehith Santhosh** – [@myhandle]([https://github.com/yourgithubhandle](https://www.linkedin.com/in/snehith-santhosh-parre/))
+* **Snehith Santhosh** – [[@yourhandle](https://www.linkedin.com/in/snehith-santhosh-parre/)
 
 ---
 
@@ -81,5 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ---
-
 
