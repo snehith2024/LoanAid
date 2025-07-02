@@ -1,0 +1,61 @@
+<LoanManager>:
+    MDBoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 10
+
+        MDLabel:
+            text: "Loan Registration"
+            halign: "center"
+            font_style: "H5"
+
+        MDTextField:
+            id: name
+            hint_text: "Full Name"
+
+        MDTextField:
+            id: email
+            hint_text: "Email"
+
+        MDTextField:
+            id: phone
+            hint_text: "Phone Number"
+
+        MDTextField:
+            id: amount
+            hint_text: "Loan Amount"
+
+        MDTextField:
+            id: loan_type
+            hint_text: "Loan Type (e.g., Home, Personal)"
+
+        MDTextField:
+            id: tenure
+            hint_text: "Tenure (Months)"
+        
+
+        MDBoxLayout:
+            size_hint_y: None
+            height: "48dp"
+            spacing: 10
+
+            MDRaisedButton:
+                text: "Submit Loan"
+                on_release: root.submit_loan()
+
+            MDRaisedButton:
+                text: "View All Loans"
+                on_release: root.load_loans()
+
+        MDTextField:
+            id: filter_type
+            hint_text: "Filter by Loan Type"
+            on_text: root.load_loans()
+
+        ScrollView:
+            MDBoxLayout:
+                id: loans_container
+                orientation: "vertical"
+                adaptive_height: True
+                padding: 10
+                spacing: 10
